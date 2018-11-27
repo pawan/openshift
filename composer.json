@@ -1,0 +1,28 @@
+{
+  "name": "pawankp/open",
+  "description": "Hide payment method for front end",
+  "version": "1.0.1",
+  "require": {
+    "php": "~7.0.0|~7.1.0"
+  },
+  "type": "magento2-module",
+  "keywords": ["magento2"],
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Pawan Kumar Parmar",
+      "email": "mail@pawan.info"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "PawanKP\\Open\\": ""
+    }
+  }
+}
